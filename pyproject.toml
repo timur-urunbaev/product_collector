@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "product-collection-util"
+version = "0.1.0"
+description = ""
+authors = ["nedogeek <urunbaev.timur@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gradio = "^5.13.1"
+pytesseract = "^0.3.13"
+polars = "^1.21.0"
+easyocr = "^1.7.2"
+jupyter = "^1.1.1"
+loguru = "^0.7.3"
+psycopg2-binary = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
